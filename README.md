@@ -1,0 +1,1 @@
+Just a simple vector db from scratch which implements hybrid search (BM25 + Semantic similarity search)

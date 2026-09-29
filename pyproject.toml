@@ -1,0 +1,22 @@
+[project]
+name = "vector-db"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shobhit-boop", email = "shobhitchoudhry9@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "pypdf>=6.19.0",
+    "torch>=2.14.0",
+    "transformers>=5.17.0",
+]
+
+[project.scripts]
+vector-db = "vector_db:main"
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cpu"
+
